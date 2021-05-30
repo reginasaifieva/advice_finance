@@ -1,0 +1,49 @@
+.button
+	background-color: $active-color
+	width: 243px
+	height: 61px
+	border-radius: 40px
+	border: 1px solid transparent !important
+	outline: none
+	font-size: 16px
+	font-weight: 700
+	line-height: 25.47px
+	font-family: 'Proxima Nova' !important
+	&:hover
+		cursor: pointer !important
+		background-color: $active-button
+		box-shadow: 0 0 11px rgba(122,122,122,0.5)
+.input
+	font-family: 'Proxima Nova-Light'
+	margin-bottom: 15px
+	width: 100%
+	border-radius: 30px
+	border: none
+	padding-left: 50px
+	height: 50px
+	font-size: 14px
+	outline: none
+	background-color: #fff
+	color: #606060
+.slider-arrow
+	&_right
+	 width: 18px
+  height: 40px 
+  position: absolute
+ 	right: -77px
+  top: 35%
+  color: transparent
+		background:  url(../img/feedback/right.png) center no-repeat
+		z-index: 13
+		&:hover
+			cursor: pointer
+	&_left
+		width: 18px
+  height: 40px 
+  position: absolute
+		background:  url(../img/feedback/left.png) center no-repeat
+		left: -77px
+		top: 35%
+		z-index: 13
+		&:hover
+			cursor: pointer
